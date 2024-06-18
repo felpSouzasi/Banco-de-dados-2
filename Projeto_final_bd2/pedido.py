@@ -1,5 +1,6 @@
 from bson.objectid import ObjectId
 
+#Modelo para operações CRUD de pedidos
 class PedidoModel:
     def __init__(self, database):
         self.db = database

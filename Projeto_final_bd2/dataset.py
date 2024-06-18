@@ -1,3 +1,4 @@
+# Dataset inicial com produtos e pedidos de exemplo
 dataset = [
     {
         "cliente_id": 1,

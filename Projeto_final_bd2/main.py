@@ -1,5 +1,4 @@
 from database import Database
-from writeAJson import writeAJson
 from produto import ProdutoModel
 from pedido import PedidoModel
 from CLI import ProdutoCLI, PedidoCLI

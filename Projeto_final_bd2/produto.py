@@ -1,5 +1,6 @@
 from bson.objectid import ObjectId
 
+# Modelo para operações CRUD de produtos
 class ProdutoModel:
     def __init__(self, database):
         self.db = database

@@ -1,6 +1,4 @@
-import pymongo  # pip install pymongo
-from dataset import dataset
-
+# Classe para gerenciar a conexão com o banco de dados MongoDB
 class Database:
     def __init__(self, database, collection):
         self.connect(database, collection)
